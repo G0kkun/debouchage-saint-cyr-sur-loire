@@ -27,6 +27,46 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Artiserv Debouchage Saint-Cyr-sur-Loire",
+      "description": "Debouchage de canalisations a Saint-Cyr-sur-Loire. Intervention urgente 24h/24 et 7j/7. Devis gratuit.",
+      "url": "https://debouchage-canalisation-saint-cyr-sur-loire.fr/",
+      "telephone": "09 80 80 55 05",
+      "email": "artiserv.debouchage@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Saint-Cyr-sur-Loire",
+        "postalCode": "37540",
+        "addressRegion": "Indre-et-Loire",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.4,
+        "longitude": 0.6667
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "priceRange": "EUR 149+",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Cash, Credit Card, Check, Bank Transfer",
+      "areaServed": {
+        "@type": "City",
+        "name": "Saint-Cyr-sur-Loire"
+      }
+    }
+    </script>
+
 </head>
 <body>
     <!-- Top Bar -->
